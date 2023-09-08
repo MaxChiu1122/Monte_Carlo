@@ -152,7 +152,7 @@ Where:
 - $E(R_1), E(R_2), …, E(R_n)$ are the expected returns of each asset in the portfolio
 - $R_0$ is constant and is the return of the cash asset which is known as **risk-free asset.**
     
-    ![Untitled](Untitled%204.png)
+![Untitled](Untitled%204.png)
     
 
 ![Untitled](Untitled%205.png)
