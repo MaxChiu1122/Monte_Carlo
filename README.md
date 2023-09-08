@@ -8,7 +8,7 @@ Computational simulation that rely on repeated random sampling to obtain results
 
 It relies on the assumption that many random samples mimic patterns in the total population.
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled.png)
+![Untitled](Untitled.png)
 
 ## Formula
 
@@ -18,7 +18,7 @@ $$
 R_t \sim MVN(\mu,\sum)
 $$
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 **Cholesky Decomposition** is used to determine Lower Triangular Matrix 
 
@@ -84,7 +84,7 @@ plt.show()
 
 Plot show
 
-![Figure_1.png](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Figure_1.png)
+![Figure_1.png](Figure_1.png)
 
 [Simulated Stock Portolio](https://quantpy.com.au/python-for-finance/simulated-stock-portolio/)
 
@@ -92,9 +92,9 @@ Plot show
 
 ## VaR & CVaR
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%202.png)
+![Untitled](Untitled%202.png)
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%203.png)
+![Untitled](Untitled%203.png)
 
 ## ****Implement Value at Risk & Conditional Value at Risk****
 
@@ -131,7 +131,7 @@ Results:
 VaR $917.63
 CVaR $1353.38
 
-![Figure_1.png](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Figure_1%201.png)
+![Figure_1.png](Figure_1%201.png)
 
 [Value at Risk (VaR) and Conditional VaR (CVaR)](https://quantpy.com.au/risk-management/value-at-risk-var-and-conditional-var-cvar/)
 
@@ -152,10 +152,10 @@ Where:
 - $E(R_1), E(R_2), …, E(R_n)$ are the expected returns of each asset in the portfolio
 - $R_0$ is constant and is the return of the cash asset which is known as **risk-free asset.**
     
-    ![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%204.png)
+    ![Untitled](Untitled%204.png)
     
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%205.png)
+![Untitled](Untitled%205.png)
 
 Where:
 
@@ -165,25 +165,25 @@ Where:
 
 this could be re-written in matrix form such as:
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%206.png)
+![Untitled](Untitled%206.png)
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%207.png)
+![Untitled](Untitled%207.png)
 
 ## ****Optimization Problem****
 
 1. maximize expected return while obtaining a certain level of risk:
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%208.png)
+![Untitled](Untitled%208.png)
 
 1. minimize risk (variance) while obtaining a certain level of return.
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%209.png)
+![Untitled](Untitled%209.png)
 
 1. instead of Maximizing the return, we try to maximize the Sharpe ratio (risk-adjusted return) which is defined as:
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%2010.png)
+![Untitled](Untitled%2010.png)
 
-![Untitled](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Untitled%2011.png)
+![Untitled](Untitled%2011.png)
 
 ## Why MC?
 
@@ -475,7 +475,7 @@ NWSA:   % 0.0
 NWS:    % 51.49
 ```
 
-![Figure_1.png](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Figure_1%202.png)
+![Figure_1.png](Figure_1%202.png)
 
 ## Implement Efficient Frontier
 
@@ -761,7 +761,7 @@ NWSA:   % 0.0
 NWS:    % 51.49
 ```
 
-![Figure_1.png](Monte%20Carlo%20for%20Finance%2095b7c13e56304c44bfc9d1b453bbb8c8/Figure_1%202.png)
+![Figure_1.png](Figure_1%202.png)
 
 ## Compare with VaR &CVaR
 
